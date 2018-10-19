@@ -27,4 +27,5 @@ The network is trained on [MNIST](http://yann.lecun.com/exdb/mnist/) handwritten
 
 - It uses tensorflow.
 - To train: ```python MNIST_NN.py```
+- A tensorflow summary is included with the evolution of the weights, biases ,and costs.
 - To access tensorboard: ```tensorboard --logdir=data/logs```
